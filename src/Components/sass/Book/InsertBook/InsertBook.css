@@ -1,0 +1,77 @@
+.insertBook {
+  width: 40%;
+  margin: auto;
+}
+
+.insertBook .header h1 {
+  color: black;
+  letter-spacing: .1rem;
+}
+
+.insertBook form {
+  text-align: center;
+}
+
+.insertBook form label {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: .07rem;
+  text-align: left;
+  margin-bottom: .3rem;
+}
+
+.insertBook form input {
+  width: 100%;
+  height: 2.5rem;
+  border-radius: 15px;
+  border: 1px solid #d1cccc;
+  margin-bottom: 1rem;
+  padding-left: .7rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.insertBook form input::-webkit-input-placeholder {
+  color: blue;
+  opacity: .4;
+}
+
+.insertBook form input::-webkit-inner-spin-button, .insertBook form input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.insertBook form textarea {
+  width: 100%;
+  height: 8rem;
+  border-radius: 15px;
+  border: 1px solid #d1cccc;
+  padding: .5rem;
+  font-weight: bold;
+  outline: none;
+}
+
+.insertBook form textarea::-webkit-input-placeholder {
+  color: blue;
+  opacity: .4;
+}
+
+.insertBook form button {
+  margin-top: .7rem;
+  display: block;
+  width: 7rem;
+  height: 2.5rem;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: blue;
+  color: #fff;
+  border: 1px blue solid;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.insertBook form button:hover {
+  color: blue;
+  background-color: #fff;
+}

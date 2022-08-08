@@ -1,0 +1,15 @@
+.BookDetails{
+    width: 47.5%;
+    float: right;
+    & .header{
+        width: 82%;
+        & h1{
+            letter-spacing: .1rem;
+        }
+    }
+    & .content{
+        font-size: 1.3rem;
+        opacity: .9;
+        width: 100%;
+    }
+}

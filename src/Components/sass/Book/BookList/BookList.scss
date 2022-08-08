@@ -1,0 +1,77 @@
+.BookList{
+    width: 49%;
+    margin-left: 1rem;
+    display: inline-block;
+    & .header{
+        margin: auto;
+        width: 82%;
+        & h1{
+            letter-spacing: .1rem;
+        }
+    }
+    & .list{
+        height: 35vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        &::-webkit-scrollbar{
+            width: .5rem;
+        }
+        &::-webkit-scrollbar-track{
+            background-color: snow;
+        }
+        &::-webkit-scrollbar-thumb{
+            background-color: blue;
+            border-radius: 25px;
+        }
+        & .content{
+            margin: auto;
+            width: 80%;
+            border: 1px solid rgb(190, 187, 187);
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            & .book{
+                width: 100%;
+                & .nameBook{
+                    display: inline-block;
+                    font-weight: bold;
+                    font-size: 2rem;
+                    line-height: 3rem;
+                    width: 65%;
+                }
+                & button{
+                    width: 17%;
+                    height: 3rem;
+                    font-size: 1rem;
+                    font-weight: bold;
+                    cursor: pointer;
+                    transition: .5s;
+                }
+                & .readBook{
+                    float: right;
+                    background-color: blue;
+                    border: 1px blue solid;
+                    color: #fff;
+                    border-top-left-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    &:hover{
+                        background-color: #fff;
+                        color: blue;
+                    }
+                }
+                & .deleteBook{
+                    float: right;
+                    background-color: red;
+                    border: 1px red solid;
+                    color: #fff;
+                    border-top-right-radius: 10px;
+                    border-bottom-right-radius: 10px;
+                    &:hover{
+                        background-color: #fff;
+                        color: red;
+                    }
+                }
+            }
+        }
+    }
+}
